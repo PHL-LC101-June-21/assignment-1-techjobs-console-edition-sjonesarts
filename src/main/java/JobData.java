@@ -98,7 +98,10 @@ public class JobData {
         // load data, if not already loaded
         loadData();
 
-        // TODO - implement this method
+        ArrayList<HashMap<String, String>> foundByValue = new ArrayList<>();
+        String searchedValue = value.toLowerCase();
+
+
         return null;
     }
 
