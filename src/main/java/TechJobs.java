@@ -126,7 +126,7 @@ public class TechJobs {
                     String column = entry.getKey();
                     Object job = entry.getValue();
 
-                    System.out.println(column + ":" + job);
+                    System.out.println(column + ": " + job);
                 }
                 System.out.println("*****\n");
             }
